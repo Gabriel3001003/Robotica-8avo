@@ -5,8 +5,8 @@ import serial
 import time
 from collections import deque
 
-# Conectar con Arduino
-arduino = serial.Serial('COM9', 115200, timeout=1)  # Cambia 'COM3' si es necesario
+# Conectar con ESP32
+arduino = serial.Serial('COM9', 115200, timeout=1)  
 time.sleep(2)
 
 # Cargar MiDaS
