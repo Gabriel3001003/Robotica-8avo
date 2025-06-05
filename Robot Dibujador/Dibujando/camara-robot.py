@@ -7,11 +7,11 @@ import time
 OFFSET_X = 5 # Centro del área de trabajo (en cm)
 OFFSET_Y = 5
 ESCALA_REAL_CM = 10 # Tamaño real del área (10x10 cm)
-SERIAL_PORT = 'COM9'  # Cambia si usas otro puerto
+SERIAL_PORT = 'COM9'  
 BAUD_RATE = 115200
 
 # 1. Inicializar cámara
-cap = cv2.VideoCapture(1)  # Usa 1 si tu cámara está en otro puerto
+cap = cv2.VideoCapture(1)  
 if not cap.isOpened():
     print("No se pudo abrir la cámara.")
     exit()
